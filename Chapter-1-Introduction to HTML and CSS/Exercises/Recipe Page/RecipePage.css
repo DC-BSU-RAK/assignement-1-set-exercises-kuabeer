@@ -1,0 +1,86 @@
+body{
+    background-color: #ffe4a3;
+
+}
+#Heading{
+    text-align: center;
+    background-color:#ffb576;
+    border-style: dotted;
+    border-color: #bc0606;
+    border-width: 10px;
+    border-radius: 20px;
+}
+
+#list{
+    background-color:#ffb576;
+    border-style: dotted;
+    border-color: #bc0606;
+    border-width: 10px;
+    width:400px;
+    text-align: center;
+    padding: 5px;
+    border-radius:20px;
+    margin-left: 30px;
+}
+
+#methods{
+    background-color:#ffb576;
+    border-style: dotted;
+    border-color: #bc0606;
+    border-width: 10px;
+    width:400px;
+    text-align: center;
+    padding: 5px;
+    border-radius:20px;
+    margin-left: 30px;
+    float: left;
+}
+
+#dough{
+    background-color:#ffb576;
+    border-color: #bc0606;
+    border-width: 10px;
+    border-radius: 20px;
+    width: 240px;
+    float: left;
+    margin-right: 20px;
+    padding: 10px;
+    font-size: 17px;
+}
+
+#top{
+    background-color:#ffb576;
+    border-color: #bc0606;
+    border-width: 10px;
+    border-radius: 20px;
+    width: 200px;
+    float: left;
+    padding: 8px;
+    font-size: 17px;
+    
+}
+
+#pizza{
+    float: right;
+    width: 55%;
+    padding: 20px;
+    height:400px;
+    margin-top:-90px;
+}
+
+#step{
+    float: left;
+    font-size: 18px;
+    background-color:#ffb576;
+    border-color: #bc0606;
+    border-width: 10px;
+    border-radius: 20px;
+    width: fit-content;
+    float: left;
+    padding: 8px;
+}
+
+p{
+    
+    font-size: 18px;
+}
