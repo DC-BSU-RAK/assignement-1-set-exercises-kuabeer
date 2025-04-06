@@ -1,0 +1,90 @@
+h1{
+    border: solid;
+    background-color: rgb(16, 41, 105);
+    border-color:rgb(32, 75, 184) ;
+    text-align: center;
+    font-size:80px;
+    color: aliceblue;
+    padding:20px;
+    margin-bottom: 0; /* Remove bottom margin */
+    border-bottom: none; /* Remove bottom border */
+    margin-top:0;
+}
+
+.navbar ul{
+    list-style-type: none; /* to remove bullet point*/
+    background-color:rgb(32, 75, 184);
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden; /* to show all link as float hide them or not showing it*/
+}
+
+.navbar a{
+    color: aliceblue;
+    display:block;
+    text-decoration: none; /* to remove underline */
+    padding:20px;
+    margin-left:80px;
+    text-align: center;
+    
+}
+
+.navbar a:hover{ /* when u click any link the background color change */
+    background-color: rgb(42, 60, 106);
+}
+
+.navbar li{
+    float: left; /*makes list items align horizontally instead of vertically */
+}
+
+p{
+    margin-top: 10px;
+    border:dashed;
+    border-color: rgb(93, 144, 226);
+    background-color: rgb(249, 249, 249);
+    padding:10px;
+    font-size: large;
+}
+
+h2{
+    background-color: rgb(32, 75, 184);
+    color: aliceblue;
+    text-align: center;
+    padding: 12px;
+}
+
+.border{
+    margin-top: 10px;
+    border:dashed;
+    border-color: rgb(93, 144, 226);
+    background-color: rgb(249, 249, 249);
+    padding:10px;
+    font-size: large;
+}
+
+.border li{
+    margin-left: 15px;
+    padding:2px;
+}
+
+.btn-container {
+    text-align: right; /* Aligns button to right */
+    margin-right:5px;
+    margin-top: 20px;
+}
+
+ .official-btn {
+    text-decoration: none;      
+    background-color: rgb(33, 58, 122);
+    color: aliceblue;
+    text-align: center;
+    padding: 12px;
+    width:fit-content;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius:10px;
+}
+    
+.official-btn:hover {
+    background-color: #344870; 
+}
