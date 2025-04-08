@@ -1,0 +1,82 @@
+header{
+    background-color:#17072b;
+    color:#FFFFFF;
+    margin-top:0;
+}
+
+body{
+    font-family:Arial, sans-serif;
+    font-weight:400;
+    /* no space or border */
+    margin:0;
+    padding:0;
+}
+
+h2{
+   text-decoration: underline;
+}
+
+.head-font{
+    font-family: Tahoma, sans-serif;
+    font-weight:700;
+    font-size:35px;
+    text-decoration: underline;
+    text-align: center;
+    padding-top:20px;
+}
+
+.navbar ul{
+    list-style:none; /* remove bullet point*/
+    display: flex; /* to make horizontal navbar */
+    gap:20px; /* space between the text */
+    font-size:25px;
+    justify-content: center; /* to make it center*/
+    padding: 0; /* Remove default padding */
+    padding-bottom:15px; 
+}
+
+.navbar a{
+    text-decoration:none; /*remove underline*/
+    color:#FFFFFF;
+    text-align: center;
+}
+
+main{
+    display:flex; /* to make 2 column */
+}
+
+.welcome{
+    width: 70%; /*half of page*/
+    margin-left: 15px;
+
+}
+
+.sidebar{
+    width:30%;
+    background-color: #172d67;
+    color: #FFFFFF;
+    padding:20px;
+    margin-right:0px;
+}
+
+.list li{
+   padding:10px; /*space between the lists */
+}
+
+.image-container {
+    display: flex;
+    gap: 10px; /*space between the image*/
+}
+
+img{
+    margin-top:10px;
+    width:150px;
+    height:150px;
+    margin-left:10px;
+}
+
+footer{
+    background-color: #8c15e9;
+    color:#FFFFFF;
+    text-align:center;
+}
