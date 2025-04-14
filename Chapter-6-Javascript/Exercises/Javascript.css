@@ -49,6 +49,6 @@ body {
     padding:5px;
 }
 
-button:hover{
+#btn button:hover{
   background-color: rgb(101, 159, 43);
 }
